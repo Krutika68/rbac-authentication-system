@@ -16,7 +16,6 @@ This project implements a role-based access control (RBAC) authentication system
 
 2. Install dependencies:
 
-   bash
    npm install
 
 3. Create a .env file in the root directory with the following content:
@@ -26,8 +25,7 @@ This project implements a role-based access control (RBAC) authentication system
    PORT=5000
 
 4. Start the server:
-
-   bash 
+5. 
    node app.js
 
 Endpoints:
