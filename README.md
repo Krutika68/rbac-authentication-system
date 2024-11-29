@@ -24,14 +24,14 @@ This project implements a role-based access control (RBAC) authentication system
 
 4. Start the server : node app.js
 
-Endpoints:
+  Endpoints:
 
    1. POST /api/auth/register - Register a new user
    2. POST /api/auth/login - Login and get a JWT token
    3. GET /api/admin - Accessible only by Admin users
    4. GET /api/user - Accessible by all authenticated users
 
-Technologies Used:
+  Technologies Used:
  
    1. Node.js for the server-side runtime environment.
    2. Express for building the REST API.
