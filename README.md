@@ -25,42 +25,25 @@ This project implements a role-based access control (RBAC) authentication system
    PORT=5000
 
 4. Start the server:
-5. 
+    
    node app.js
 
 Endpoints:
 
-   POST /api/auth/register - Register a new user
-   POST /api/auth/login - Login and get a JWT token
-   GET /api/admin - Accessible only by Admin users
-   GET /api/user - Accessible by all authenticated users
+   1. POST /api/auth/register - Register a new user
+   2. POST /api/auth/login - Login and get a JWT token
+   3. GET /api/admin - Accessible only by Admin users
+   4. GET /api/user - Accessible by all authenticated users
 
 Technologies Used:
  
-   Node.js for the server-side runtime environment.
-   Express for building the REST API.
-   MongoDB as the database to store user data.
-   Mongoose to interact with MongoDB using an object-data mapping library.
-   bcryptjs for password hashing and validation.
-   jsonwebtoken (JWT) for token-based authentication.
-   dotenv for managing environment variables securely.
+   1. Node.js for the server-side runtime environment.
+   2. Express for building the REST API.
+   3. MongoDB as the database to store user data.
+   4. Mongoose to interact with MongoDB using an object-data mapping library.
+   5. bcryptjs for password hashing and validation.
+   6. jsonwebtoken (JWT) for token-based authentication.
+   7. dotenv for managing environment variables securely.
 
-Project Structure:
-
-├── config/
-│   └── db.js            # MongoDB connection setup
-├── controllers/
-│   └── authController.js # Authentication logic (login, register)
-├── middleware/
-│   ├── authMiddleware.js # JWT Authentication middleware
-│   └── roleMiddleware.js # Role-based access control middleware
-├── models/
-│   └── User.js          # Mongoose User model (password hashing, role assignment)
-├── routes/
-│   └── authRoutes.js    # Routes for authentication (login, register)
-├── .env                 # Environment variables (JWT_SECRET, MONGO_URI, PORT)
-├── app.js               # Express server setup
-└── package.json         # NPM dependencies
-
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details. 
