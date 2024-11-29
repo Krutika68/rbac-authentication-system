@@ -14,19 +14,15 @@ This project implements a role-based access control (RBAC) authentication system
    git clone https://github.com/Krutika68/rbac-authentication-system.git
    cd rbac-authentication-system
 
-2. Install dependencies:
+2. Install dependencies : npm install
 
-   npm install
-
-3. Create a .env file in the root directory with the following content:
+3. Create a .env file in the root directory with the following content :
 
    JWT_SECRET=your_jwt_secret_key
    MONGO_URI=mongodb://localhost:27017/rbac_db
    PORT=5000
 
-4. Start the server:
-    
-   node app.js
+4. Start the server : node app.js
 
 Endpoints:
 
