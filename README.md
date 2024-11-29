@@ -41,5 +41,4 @@ Technologies Used:
    6. jsonwebtoken (JWT) for token-based authentication.
    7. dotenv for managing environment variables securely.
 
-License:
-This project is licensed under the MIT License - see the LICENSE file for details. 
+
